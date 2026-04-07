@@ -2,7 +2,7 @@ import asyncio
 import logging
 import re
 import csv
-import aiosqlite
+import sqlite3
 from io import StringIO
 from datetime import datetime, timedelta
 from typing import Optional, Tuple, List, Dict, Any
